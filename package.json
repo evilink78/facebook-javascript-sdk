@@ -7,6 +7,10 @@
     "build": "tsc",
     "postinstall": "typings install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thyshadow/facebook-share.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
