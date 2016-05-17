@@ -1,7 +1,9 @@
 {
   "name": "facebook-javascript-sdk",
   "version": false,
-  "dependencies": {},
+  "dependencies": {
+    "concat-stream": "registry:npm/concat-stream#1.0.0+20160211003958"
+  },
   "globalDependencies": {
     "node": "registry:dt/node#6.0.0+20160514165920"
   }
