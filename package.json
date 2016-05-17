@@ -1,11 +1,11 @@
 {
   "name": "facebook-javascript-sdk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "libs/index.js",
   "scripts": {
     "build": "tsc -p ./src/lib/",
-    "postinstall": "typings install",
+    "postinstall": "typings install && npm run build",
     "prepublish": "typings install && npm run build"
   },
   "repository": {
