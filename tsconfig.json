@@ -9,9 +9,6 @@
     "removeComments": false,
     "noImplicitAny": false
   },
-  "files": [
-    "index.ts"
-  ],
   "exclude": [
     "typings/browser.d.ts",
     "typings/browser",
