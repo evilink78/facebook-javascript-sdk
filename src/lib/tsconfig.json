@@ -3,14 +3,17 @@
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
+    "declaration": true,
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "../../"
   },
   "files": [
-    "typings/index.d.ts"
+    "index.ts",
+    "../../typings/index.d.ts"
   ],  
   "exclude": [
     "typings/browser.d.ts",
