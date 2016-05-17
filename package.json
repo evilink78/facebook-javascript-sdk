@@ -1,11 +1,12 @@
 {
   "name": "facebook-javascript-sdk",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "libs/index.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "prepublish": "typings install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
     "typescript": "^1.8.10",
     "typings": "^1.0.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "typings": "./index.d.ts"
 }
