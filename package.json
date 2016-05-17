@@ -2,7 +2,7 @@
   "name": "facebook-javascript-sdk",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "libs/index.js",
   "scripts": {
     "build": "tsc",
     "postinstall": "typings install"
